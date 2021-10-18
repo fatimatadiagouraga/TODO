@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+  font-size: 1.1em;
+  /* background-image: url(images/liste.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom right; */
+  background-color: rgb(143, 203, 212);
+}
+
+nav{
+    background-color: rgb(241, 215, 135);
+    padding: 19px 0px;
+}
+
+nav h1{
+    color: white;
+    text-align: center;
+}
+
+.firstsection{
+    background-color: rgb(127, 211, 226);
+
+}
+
+.firstform{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.firstform label{
+    color: rgb(14, 13, 13);
+}
+
+.firstform input{
+    height: 60px;
+    width: 140px;
+}
+
+.firstform select{
+    height: 60px;
+    width: 114px;
+}
+.firstform .ajouter{
+    background-color: rgb(3, 83, 13);
+    color: white;
+    border: none;
+    border-radius: 13px;
+}
+
+.secondsection{
+    background-color: rgb(230, 237, 238);
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+
+}
+.secondsection h2{
+   text-align: center;
+   
+}
+.tab{
+background-color: rgb(230, 237, 238);
+padding: 0px 10px;
+margin-top: -20px;
+margin-left: 100px;
+}
+
+.tab th{
+    padding-right: 160px;
+    
+}
+
+.text{
+    text-align: center;
+}
+.formulaire{
+    padding-top: 70px;
+}
+.lab1{
+    padding: 15px 20px 20px 60px ;
+    margin-left: 800px;
+    border: rgb(53, 68, 148) solid;
+}
+#statut{
+    padding: 20px 40px;
+
+}
+.soumettre{
+    padding: 20px 20px;
+    background-color: rgb(171, 218, 194);
+}
+
